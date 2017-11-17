@@ -17,4 +17,4 @@ echo
 
 pyenv local 3.5
 pip3 install pyenchant
-git diff --name-only HEAD^ | grep '\.md$' | xargs -r python3.5 markdown-spellchecker-$SCVERSION/src/spellchecker.py || exit 1
+git diff --name-status HEAD^ | awk '/^[^D]\t.*\.md$/ { print $NF }' | xargs -r python3.5 markdown-spellchecker-$SCVERSION/src/spellchecker.py || exit 1

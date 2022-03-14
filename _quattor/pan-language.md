@@ -14,7 +14,7 @@ the necessary changes to the machine configuration.
 The pan language is a "Domain Specific Language" (DSL) with a simple,
 human-friendly syntax.  Unlike other languages, pan allows the
 simultaneous definitions of the configuration schema, the
-configuration itself, and contraints for validation.
+configuration itself, and constraints for validation.
 
 Pan Language Reference
 ----------------------
@@ -28,7 +28,7 @@ Book".  It contains an introduction to the language, detailed
 reference, and instructions for installation and use.
 
 Look at the [release page][panc] in GitHub to find the
-version of the book you're looking for. It is availabe in both PDF and
+version of the book you're looking for. It is available in both PDF and
 EPUB formats.
 
 Feedback
@@ -40,4 +40,3 @@ to the Quattor discussion list to get support from the community.
 
 [panc]: https://github.com/quattor/pan/releases
 [panc-issues]: https://github.com/quattor/pan/issues
-
